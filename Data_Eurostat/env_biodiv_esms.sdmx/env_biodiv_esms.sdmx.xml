@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GenericMetadata xmlns="http://www.sdmx.org/resources/sdmxml/schemas/v3_0/message" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v3_0/common" xmlns:generic="http://www.sdmx.org/resources/sdmxml/schemas/v3_0/metadata/generic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Header>
+        <ID>ENV_BIODVES_A</ID>
+        <Test>false</Test>
+        <Prepared>2026-02-09T09:30:54</Prepared>
+        <Sender id="4D0">
+            <Contact/>
+        </Sender>
+        <common:Name>ENV_BIODVES_A_4D_2024_0000 (env_biodiv_esms)</common:Name>
+        <Structure structureID="ENV_BIODVES_A_1_0">
+            <common:StructureUsage>urn:sdmx:org.sdmx.infomodel.metadatastructure.Metadataflow=ESTAT:ENV_BIODVES_A(1.0)</common:StructureUsage>
+        </Structure>
+        <DataSetAction>Delete</DataSetAction>
+        <DataSetID>ENV_BIODVES_A_1770625855325</DataSetID>
+    </Header>
+    <MetadataSet id="ESMS_MSD" agencyID="ESTAT" version="3.0">
+        <common:Annotations>
+            <common:Annotation>
+                <common:AnnotationType>REFERENCE_PERIOD</common:AnnotationType>
+                <common:AnnotationText>A0</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+                <common:AnnotationTitle>2016 EU list of common bird species</common:AnnotationTitle>
+                <common:AnnotationType>FILE</common:AnnotationType>
+                <common:AnnotationText>Annexes/env_biodiv_esms_an_1.xlsx</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+                <common:AnnotationTitle>2014 national lists of common farmland bird species</common:AnnotationTitle>
+                <common:AnnotationType>FILE</common:AnnotationType>
+                <common:AnnotationText>Annexes/env_biodiv_esms_an_2.xlsx</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+                <common:AnnotationType>FOR_PUBLICATION</common:AnnotationType>
+                <common:AnnotationText>YES</common:AnnotationText>
+            </common:Annotation>
+        </common:Annotations>
+        <common:Name></common:Name>
+        <generic:Metadataflow>urn:sdmx:org.sdmx.infomodel.metadatastructure.Metadataflow=ESTAT:ENV_BIODVES_A(1.0)</generic:Metadataflow>
+        <generic:Target>urn:sdmx:org.sdmx.infomodel.base.DataProvider=ESTAT:DATA_PROVIDERS(1.0).4D0</generic:Target>
+        <generic:Target>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=ESTAT:ENV_BIODVES_A(1.0)</generic:Target>
+        <generic:Attribute id="CONTACT">
+            <common:Annotations>
+                <common:Annotation>
+                    <common:AnnotationType>EDITABLE</common:AnnotationType>
+                    <common:AnnotationText>NO</common:AnnotationText>
+                </common:Annotation>
+            </common:Annotations>
+            <generic:Value></generic:Value>
+            <generic:Attribute id="CONTACT_ORGANISATION">
+                <generic:Value>&lt;p&gt;Eurostat, the statistical office of the European Union&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="ORGANISATION_UNIT">
+                <generic:Value>&lt;p&gt;E2: Environmental statistics and accounts; sustainable development&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="CONTACT_NAME">
+                <common:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                        <common:AnnotationText>YES</common:AnnotationText>
+                    </common:Annotation>
+                </common:Annotations>
+                <generic:Value>Confidential because of GDPR</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="CONTACT_FUNCT">
+                <common:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                        <common:AnnotationText>YES</common:AnnotationText>
+                    </common:Annotation>
+                </common:Annotations>
+                <generic:Value>Confidential because of GDPR</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="CONTACT_MAIL">
+                <generic:Value>&lt;p&gt;2920 Luxembourg LUXEMBOURG&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="CONTACT_EMAIL">
+                <common:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                        <common:AnnotationText>YES</common:AnnotationText>
+                    </common:Annotation>
+                </common:Annotations>
+                <generic:Value>Confidential because of GDPR</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="CONTACT_PHONE">
+                <common:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                        <common:AnnotationText>YES</common:AnnotationText>
+                    </common:Annotation>
+                </common:Annotations>
+                <generic:Value>Confidential because of GDPR</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="CONTACT_FAX">
+                <generic:Value></generic:Value>
+            </generic:Attribute>
+        </generic:Attribute>
+        <generic:Attribute id="META_UPDATE">
+            <common:Annotations>
+                <common:Annotation>
+                    <common:AnnotationType>EDITABLE</common:AnnotationType>
+                    <common:AnnotationText>NO</common:AnnotationText>
+                </common:Annotation>
+            </common:Annotations>
+            <generic:Value></generic:Value>
+            <generic:Attribute id="META_CERTIFIED">
+                <generic:Value>2025-02-12</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="META_POSTED">
+                <generic:Value>2025-02-12</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="META_LAST_UPDATE">
+                <generic:Value>2025-02-12</generic:Value>
+            </generic:Attribute>
+        </generic:Attribute>
+        <generic:Attribute id="STAT_PRES">
+            <common:Annotations>
+                <common:Annotation>
+                    <common:AnnotationType>EDITABLE</common:AnnotationType>
+                    <common:AnnotationText>NO</common:AnnotationText>
+                </common:Annotation>
+            </common:Annotations>
+            <generic:Value></generic:Value>
+            <generic:Attribute id="DATA_DESCR">
+                <generic:Value>&lt;p style="text-align: justify;"&gt;Annual data on biodiversity are re-published under agreement with the data providers (see below), who are also responsible for the data quality. Eurostat does not receive&amp;nbsp;the data from the Member States. Updates are&amp;nbsp;annual and follow a tentative puplication calendar, depending on the data provider's ability to deliver.&amp;nbsp;Eurostat's role is to check data quality,&amp;nbsp;provide feedback to the data providers and publish the data it deems to be reliable. &lt;strong&gt;Eurostat is therefore NOT to be quoted as the source&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The topics covered and&amp;nbsp;providers are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Common farmland bird index by&amp;nbsp;Member State (env_bio2; Source: BirdLife International)&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;EU&amp;nbsp;Common bird indices by type of estimate (env_bio3; Source:&amp;nbsp;The&amp;nbsp;European Bird Census Council (&lt;a href="http://www.ebcc.info/"&gt;EBCC)&lt;/a&gt; and its Pan-European Common Bird Monitoring Scheme (&lt;a href="https://pecbms.info/"&gt;PECBMS&lt;/a&gt;). National data are processed and aggregated by the Czech Society for Ornithology (CSO). The source should be quoted as "EBCC/BirdLife/RSPB/CSO".)&lt;/li&gt;
+&lt;li&gt;Terrestrial protected areas (nationally protected areas and Natura 2000 areas) by Member State (env_bio4 Source European Environment Agency (EEA) and European Commission)&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;Marine protected areas (nationally protected areas and Natura 2000 areas) by Member State (env_bio4 Source European Environment Agency (EEA) and European Commission) and their relative coverage of the area of national marine waters. The source of data on the area of marine waters is Member States' reporting under the Marine Strategy Framework Directive and published on WISE MARINE (Marine Information System for Europe) (Source: &lt;a href="https://water.europa.eu/marine/"&gt;WISE MARINE&lt;/a&gt; (Marine Information System for Europe), EEA and European Commission).&lt;/li&gt;
+&lt;/ul&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="CLASS_SYSTEM">
+                <generic:Value>&lt;p&gt;env_bio2: common farmland birds, selected&amp;nbsp;by each national BirdLife organisation&lt;/p&gt;
+&lt;p&gt;env_bio3:&amp;nbsp;composite EU indices by type of estimate, covering&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Common farmland birds (39 species)&lt;/li&gt;
+&lt;li&gt;Common forest birds (34 species)&lt;/li&gt;
+&lt;li&gt;All common birds -&amp;nbsp;both farmland and forest birds plus a number of other common birds (168 species)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bird names follow the &lt;a href="http://datazone.birdlife.org/species/search"&gt;taxonomic checklist of BirdLife International,&lt;/a&gt; see&amp;nbsp;general annex or the &lt;a href="https://pecbms.info/trends-and-indicators/"&gt;PECBMS website with the latest data update &lt;/a&gt;for the species currently covered.&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-align: justify;"&gt;env_bio4: not applicable&lt;/span&gt;&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="COVERAGE_SECTOR">
+                <generic:Value>&lt;p&gt;Table env_bio2: agriculture (NACE Rev. 2 Division 01); national common farmland birds, selected from a list of approximately 39 species. Countries may opt to cover more, fewer, or entirely different species, see annex.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Table env_bio3: agriculture (NACE Rev. 2 Division 01),&amp;nbsp;forestry (NACE Rev. 2 Division 02).&lt;/p&gt;
+&lt;p&gt;Not applicable for nationally protected areas (env_bio4).&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="STAT_CONC_DEF">
+                <generic:Value>&lt;p&gt;&lt;strong&gt;National common farmland bird indices (env_bio2)&lt;/strong&gt;:&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Up to&amp;nbsp;reference year 2014, the unsmoothed&amp;nbsp;national farmland bird indices were provided to&amp;nbsp;Eurostat by the national BirdLife organisations based on an agreed&amp;nbsp;national list of species (see&amp;nbsp;the annexed&amp;nbsp;"National lists of farmland bird&amp;nbsp;species lists as of 2014")&lt;strong&gt;.&amp;nbsp;&lt;/strong&gt;Note that only one species, the skylark &lt;em&gt;Alauda arvensis&lt;/em&gt;, is common to all the national lists of farmland birds.&amp;nbsp;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Starting from&amp;nbsp;reference year 2015, these indices are collected from the EU Member States by the OECD, whether or not they are&amp;nbsp;members of OECD.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EU common bird indices by type of estimate (env_bio3):&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Each of the three EU aggregate&amp;nbsp;indices (i.e.&amp;nbsp;common farmland birds, common forest birds and all common birds) is a composite, multispecies index&amp;nbsp;calculated using Monte Carlo simulations as described in &lt;a href="https://www.sciencedirect.com/science/article/pii/S1470160X17302881"&gt;Soldaat &lt;em&gt;et al.&lt;/em&gt; (2017)&lt;/a&gt; and an R-script (R-TRIM) developed by &lt;a href="https://www.cbs.nl/en-gb/background/2018/49/models-and-statistical-methods-in-rtrim"&gt;Statistics Netherlands&lt;/a&gt; (2017) using the parameters nsim=1000, MaxCV=3, truncfac=10, TRUNC=5, index smooth_"INDEX" and plotbaseyear=1990, 2000, and the latest year for which there are data.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;No rare species are included, although some species common in certain Member States may be considered rare in others. The species covered under the common farmland and common forest indices are deemed to be dependent on that particular kind of&amp;nbsp;habitat for feeding and nesting.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The&amp;nbsp;index of common farmland birds&amp;nbsp;covers 39 species that depend on farmland (farmland specialists)&lt;/li&gt;
+&lt;li&gt;The index of common forest birds&amp;nbsp;covers 34 species that depend on forests (forest specialists)&lt;/li&gt;
+&lt;li&gt;The index of all common birds covers both farmland and forest birds plus&amp;nbsp;95 other common species&amp;nbsp;that&amp;nbsp;depend on other habitats, including built-up areas, urban parks and gardens. The&amp;nbsp;95 species&amp;nbsp;are considered 'generalist' species&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="text-align: justify;"&gt;The list of species is available in the annex&amp;nbsp;under "EU list of all common bird species". When the birds are counted in the wild, the observations are recorded in different ways depending on the country; they&amp;nbsp;may or may not be geo-referenced and they may or may not include&amp;nbsp;information on the type of habitat observed. For the analysis done by the EBCC, the results have to be processed according to the minimum standard common to all countries. The species are therefore attributed to the three agreed lists by default, no matter where the observations were actually made.&amp;nbsp;For example, the grey-headed woodpecker &lt;em&gt;Picus canus&lt;/em&gt;&amp;nbsp;is defined as a forest species according to the lists, even though it can often be observed on farm pastures, where it feeds on ants, or in city parks.&amp;nbsp;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Each of the three EU bird&amp;nbsp;indices is presented&amp;nbsp;as an&amp;nbsp;unsmoothed time series and&amp;nbsp;as a smoothed time series with 95% confidence limits.&lt;/p&gt;
+&lt;p&gt;In addition, we present&amp;nbsp;an &lt;strong&gt;estimate for year n-1&lt;/strong&gt; and &lt;strong&gt;n-2&lt;/strong&gt; for the smoother.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;estimate&amp;nbsp;&lt;/strong&gt;for the smoother is calculated as a linear extrapolation of the trend for the 2 years preceding the year the value was estimated for (i.e. estimate for 2018 = value2017/value2016*value2017).&amp;nbsp;The estimates are flagged with the e) flag.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Protected areas (env bio4):&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The indicator measures the surface of terrestrial and marine protected areas. The indicator comprises nationally designated protected areas and Natura 2000 sites. A nationally designated area is an area protected by national legislation. The Natura 2000 network comprises both marine and terrestrial protected areas designated under the EU Habitats and Birds Directives with the goal to maintain or restore a favourable conservation status for habitat types and species of EU interest.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Area of&amp;nbsp;mainland Europe (km&lt;sup&gt;2&lt;/sup&gt;)&lt;/li&gt;
+&lt;li&gt;Protected terrestrial area (km&lt;sup&gt;2&lt;/sup&gt; and percentage of mainland national territory) under Natura 2000 and areas only protected under national legislation&lt;/li&gt;
+&lt;li&gt;Area of marine waters (km&lt;sup&gt;2&lt;/sup&gt;) as reported under the Marine Strategy Framework Directive&lt;/li&gt;
+&lt;li&gt;Protected marine area&amp;nbsp;(km&lt;sup&gt;2&lt;/sup&gt;)and percentage of national marine waters area under Natura 2000 and areas only protected under national legislation&lt;/li&gt;
+&lt;/ul&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="STAT_UNIT">
+                <generic:Value>&lt;p&gt;Birds:&amp;nbsp;the sites used to sample the populations of common breeding birds&lt;/p&gt;
+&lt;p&gt;Protected areas: not applicable&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="STAT_POP">
+                <generic:Value>&lt;p&gt;&lt;strong&gt;Birds:&lt;/strong&gt;&amp;nbsp;Sample of the&amp;nbsp;EU populations of 168 species of common breeding birds, see the&amp;nbsp;&lt;a href="http://www.ebcc.info/"&gt;EBCC&lt;/a&gt;&amp;nbsp;website. The number of species covered has changed over time, as has the number of countries.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Protected areas:&lt;/strong&gt; List of sites agreed with the &lt;a href="https://environment.ec.europa.eu/topics/nature-and-biodiversity_en" target="_self"&gt;European Commission Directorate-General for the Environment&lt;/a&gt;.&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="REF_AREA">
+                <generic:Value>&lt;p&gt;&lt;strong&gt;Birds:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-align: justify;"&gt;Coverage has increased from nine to twenty-two EU Member States over the period 1990 to 2010, with three more countries covered as of the reference year 2011. Malta and Croatia are not covered in the composite index. It should be noted that countries joined the scheme at different times that are in no way linked to their joining the EU.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Protected terrestrial areas (env_bio4):&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Data are presented for all EU Member States for 2020 and 2021. Data for Cyprus (CY) refer to the government-controlled area. Data for France (FR) refer to metropolitan France. Before 2020 only EU27 aggregate.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Protected mairne areas (env_bio4):&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Data are presented for all EU Member States, however do not apply to Czechia, Luxembourg,&amp;nbsp;Hungary,&amp;nbsp;Austria,&amp;nbsp;Slovakia (landlocked countries). The area of marine waters is as reported by Member State under the Marine Strategy Framework Directive (2008/56/EC). The European Commission and European Environment Agency have no responsibility on this matter.&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="COVERAGE_TIME">
+                <generic:Value>&lt;p&gt;&lt;strong&gt;Birds:&lt;/strong&gt; From 1990. Eurostat&amp;nbsp;considers this to be the first year with a sufficient geographic coverage, representing a relatively representative share of the estimated bird population for the EU as a whole.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Protected areas (env_bio4):&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Marine: presented time series (including EU aggregates) starts in 2012.&lt;/li&gt;
+&lt;li&gt;Terrestrial: Presented time series starts in 2011 for the EU aggregate, data per Member State start in 2021.&lt;/li&gt;
+&lt;/ul&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="BASE_PER">
+                <generic:Value>&lt;p&gt;&lt;strong&gt;For&lt;/strong&gt;&amp;nbsp;&lt;strong&gt;the national common farmland bird indices (env_bio2)&lt;/strong&gt;, data for all countries are presented with&amp;nbsp;a base year&amp;nbsp;2000=100 with the exception of (national base year shown in brackets in the list below):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Austria (1998)&lt;/li&gt;
+&lt;li&gt;Cyprus (2006)&lt;/li&gt;
+&lt;li&gt;Greece (2007)&lt;/li&gt;
+&lt;li&gt;Luxembourg (2010)&lt;/li&gt;
+&lt;li&gt;Portugal (2004)&lt;/li&gt;
+&lt;li&gt;Slovakia (2005)&lt;/li&gt;
+&lt;li&gt;Slovenia (2008)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;For &lt;/strong&gt;&lt;strong&gt;EU common bird indices by type of estimate (env_bio3), &lt;/strong&gt;the data are presented with&amp;nbsp;three different base years:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1990=100 (variable I90)&lt;/li&gt;
+&lt;li&gt;2000=100 (variable I00)&lt;/li&gt;
+&lt;li&gt;Latest year available=100 (variable I_LY)&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+        </generic:Attribute>
+        <generic:Attribute id="UNIT_MEASURE">
+            <generic:Value>&lt;p&gt;&lt;strong&gt;National common farmland bird indices (env_bio2)&lt;/strong&gt; and &lt;strong&gt;EU common bird indices by type of estimate (env_bio3):&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Index&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Protected areas (env_bio4):&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Area in km&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;and %&lt;/li&gt;
+&lt;/ul&gt;</generic:Value>
+        </generic:Attribute>
+        <generic:Attribute id="REF_PERIOD">
+            <generic:Value>&lt;p&gt;Calendar year&lt;/p&gt;</generic:Value>
+        </generic:Attribute>
+        <generic:Attribute id="INST_MANDATE">
+            <common:Annotations>
+                <common:Annotation>
+                    <common:AnnotationType>EDITABLE</common:AnnotationType>
+                    <common:AnnotationText>NO</common:AnnotationText>
+                </common:Annotation>
+            </common:Annotations>
+            <generic:Value></generic:Value>
+            <generic:Attribute id="INST_MAN_LA_OA">
+                <generic:Value>&lt;p&gt;&lt;strong&gt;EU&amp;nbsp;bird indices:&lt;/strong&gt; the EBCC receives financing from the European Commission to improve the quality of the composite EU indicators (env_bio3). This does not however cover the production of any national indicators.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;strong&gt;Protected areas:&lt;/strong&gt; The EU's&amp;nbsp;nature conservation policy is part of its biodiversity strategy. It is mainly based on the implementation of two Directives: Council Directive 92/43/EEC of 21 May 1992 on the conservation of natural habitats and of wild fauna and flora &lt;a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:1992L0043:20070101:EN:PDF"&gt;(Habitats Directive)&lt;/a&gt; and Council Directive 79/409/EEC of 2 April 1979 on the conservation of wild birds &lt;a title="Birds Directive" href="http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32009L0147&amp;amp;from=EN"&gt;(Birds Directive)&lt;/a&gt;.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The Natura 2000 network consists of sites designated by Member States under the Birds Directive (special protection areas = SPA) and the proposed sites of Community importance (pSCI) that are subsequently designated under the Habitats Directive (special areas of conservation = SAC). Marine sites are also covered. The&amp;nbsp;sufficiency indices&amp;nbsp;measure progress in the&amp;nbsp;Member States' proposals for sites designated under the Habitats Directive:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Council Directive 79/409/EEC of 2 April 1979 on the conservation of wild birds in&amp;nbsp;the codfied version of &lt;a href="https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32009L0147&amp;amp;from=EN"&gt;Directive 2009/147/EC&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Council Directive 92/43/EEC of 21 May 1992 on the conservation of natural habitats and of wild fauna and flora;&lt;/li&gt;
+&lt;li&gt;Commission Decision of 18 December 1996 concerning a site information format for proposed Natura 2000 sites;&lt;/li&gt;
+&lt;li&gt;Commission Decision of 28 December 2001 adopting the list of sites of Community importance for the Macaronesian biogeographical region, pursuant to Council Directive 92/43/EEC (notified under document number C(2001) 3998).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Directive 92/43/EEC, the list of sites of Community importance for the Alpine biogeographical region (notified under document number C(2003) 4957)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Commission Decision of 7&amp;nbsp;December 2004 adopting, pursuant to Council Directive 92/43/EEC, the list of sites of Community importance for the Atlantic biogeographical region (notified under document number C(2004) 4032);&lt;/li&gt;
+&lt;li&gt;Commission Decision of 7&amp;nbsp;December 2004 adopting, pursuant to Council Directive 92/43/EEC, the list of sites of Community importance for the Continental biogeographical region (notified under document number C(2004) 4031);&lt;/li&gt;
+&lt;li&gt;Commission Decision of 13 January 2005 adopting, pursuant to Council Directive 92/43/EEC, the list of sites of Community importance for the Boreal biogeographical region (notified under document number C(2004) 5462);&lt;/li&gt;
+&lt;li&gt;Commission Decision of 19&amp;nbsp;July 2006 adopting, pursuant to Council Directive 92/43/EEC, the list of sites of Community importance for the Mediterranean biogeographical region (notified under document number C(2006) 3261);&lt;/li&gt;
+&lt;li&gt;Council Directive 2006/105/EC of 20 November 2006 adapting Directives 73/239/EEC, 74/557/EEC and 2002/83/EC in the field of environment, by reason of the accession of Bulgaria and Romania;&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;05 February 2008: Commission Decision of 25 January 2008 adopting, pursuant to Council Directive 92/43/EEC, a first updated list of sites of Community importance for the Macaronesian biogeographical region (notified under document number C(2008) 286) &lt;a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2008:031:0039:0048:EN:PDF"&gt;Macaronesian region.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="INST_MAN_SHAR">
+                <generic:Value>&lt;p&gt;&lt;strong&gt;Birds:&lt;/strong&gt;&amp;nbsp;The&amp;nbsp;European Bird Census Council&amp;nbsp;(&lt;a href="http://www.ebcc.info/"&gt;EBCC&lt;/a&gt;) and its Pan-European Common Bird Monitoring Scheme (PECBMS) programme; OECD for env_bio2.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Protected areas: &lt;/strong&gt;The &lt;a href="https://environment.ec.europa.eu/topics/nature-and-biodiversity_en" target="_self"&gt;European Commission Directorate-General for the Environment&lt;/a&gt;; the European Environment Agency and its &lt;a href="https://biodiversity.europa.eu/"&gt;Biodiversity Information System for Europe&lt;/a&gt;.&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+        </generic:Attribute>
+        <generic:Attribute id="CONF">
+            <common:Annotations>
+                <common:Annotation>
+                    <common:AnnotationType>EDITABLE</common:AnnotationType>
+                    <common:AnnotationText>NO</common:AnnotationText>
+                </common:Annotation>
+            </common:Annotations>
+            <generic:Value></generic:Value>
+            <generic:Attribute id="CONF_POLICY">
+                <generic:Value>&lt;p style="text-align: justify;"&gt;&lt;a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:087:0164:0173:En:PDF" target="_blank"&gt;Regulation (EC) No 223/2009 on European statistics&lt;/a&gt; (recital 24 and Article 20(4)) of 11 March 2009 (OJ L 87, p. 164), stipulates the need to establish common principles and guidelines ensuring the confidentiality of data used for the production of European statistics and the access to those confidential data with due account for technical developments and the requirements of users in a democratic society.&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="CONF_DATA_TR">
+                <generic:Value>&lt;p&gt;Not applicable&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+        </generic:Attribute>
+        <generic:Attribute id="REL_POLICY">
+            <common:Annotations>
+                <common:Annotation>
+                    <common:AnnotationType>EDITABLE</common:AnnotationType>
+                    <common:AnnotationText>NO</common:AnnotationText>
+                </common:Annotation>
+            </common:Annotations>
+            <generic:Value></generic:Value>
+            <generic:Attribute id="REL_CAL_POLICY">
+                <generic:Value>&lt;p&gt;Once a year, but with no&amp;nbsp;strict publication&amp;nbsp;calendar. The bird indices usually become available in Q4 (n-2), while information on protected areas in Q1 (n-1).&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="REL_CAL_ACCESS">
+                <generic:Value>&lt;p&gt;Not applicable&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="REL_POL_US_AC">
+                <generic:Value>&lt;p style="text-align: justify;"&gt;In line with the Community legal framework and the &lt;a href="https://ec.europa.eu/eurostat/documents/4031688/8971242/KS-02-18-142-EN-N.pdf/e7f85f07-91db-4312-8118-f729c75878c7" target="_blank"&gt;European Statistics Code of Practice&lt;/a&gt; Eurostat disseminates European statistics on Eurostat's website (see item 10 - 'Accessibility and clarity') respecting professional independence and in an objective, professional and transparent manner in which all users are treated equitably. The detailed arrangements are governed by the &lt;a href="https://ec.europa.eu/eurostat/about-us/impartiality-protocol" target="_blank"&gt;Eurostat protocol on impartial access to Eurostat data for users&lt;/a&gt;.&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+        </generic:Attribute>
+        <generic:Attribute id="FREQ_DISS">
+            <generic:Value>&lt;p&gt;Protected areas: annual&lt;/p&gt;
+&lt;p&gt;Birds: annual&lt;/p&gt;</generic:Value>
+        </generic:Attribute>
+        <generic:Attribute id="ACCESSIBILITY_CLARITY">
+            <common:Annotations>
+                <common:Annotation>
+                    <common:AnnotationType>EDITABLE</common:AnnotationType>
+                    <common:AnnotationText>NO</common:AnnotationText>
+                </common:Annotation>
+            </common:Annotations>
+            <generic:Value></generic:Value>
+            <generic:Attribute id="NEWS_REL">
+                <generic:Value>&lt;p&gt;Online news releases&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="PUBLICATIONS">
+                <generic:Value>&lt;p&gt;Statistics Explained articles on &lt;a href="http://ec.europa.eu/eurostat/statistics-explained/index.php/Biodiversity_statistics"&gt;biodiversity&lt;/a&gt; and on &lt;a href="http://ec.europa.eu/eurostat/statistics-explained/index.php/Agri-environmental_indicator_-_population_trends_of_farmland_birds"&gt;agri-environmental indicators, population trends of farmland birds&lt;/a&gt;&amp;nbsp;&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="ONLINE_DB">
+                <generic:Value>&lt;p&gt;Eurostat's database table &lt;a href="https://ec.europa.eu/eurostat/databrowser/view/env_bio2/default/table?lang=en"&gt;env_bio2,&lt;/a&gt; &lt;a title="env_bio3" href="https://ec.europa.eu/eurostat/databrowser/view/env_bio3/default/table?lang=en" target="_blank"&gt;env_bio3&lt;/a&gt;, &lt;a title="env_bio4" href="https://ec.europa.eu/eurostat/databrowser/view/env_bio4/default/table?lang=en" target="_blank"&gt;env_bio4&lt;/a&gt;; SDG tables derived from these.&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="MICRO_DAT_ACC">
+                <generic:Value>&lt;p&gt;Not applicable&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="DISS_OTHER">
+                <generic:Value>&lt;ul&gt;
+&lt;li&gt;Statistics Explained - &lt;a href="http://ec.europa.eu/eurostat/statistics-explained/index.php?title=Biodiversity_statistics"&gt;Biodiveristy statistics&amp;nbsp;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pecbms.info/trends-and-indicators/"&gt;PECBMS website and its annexed data tables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://stats.oecd.org/Index.aspx?QueryId=77269"&gt;OECD database on agri-environmental indicators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a title="EU Biodiversity Strategy Dashboard" href="https://dopa.jrc.ec.europa.eu/kcbd/dashboard/#summary" target="_blank"&gt;EU Biodiversity Strategy Dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="DOC_METHOD">
+                <generic:Value>&lt;p&gt;&lt;strong style="text-align: justify;"&gt;Birds:&lt;/strong&gt;&lt;span style="text-align: justify;"&gt;&amp;nbsp;the methods were developed by the Royal Society for the Protection of Birds (RSPB), BirdLife International, the European Bird Census Council and Statistics Netherlands. Further information can be found at the&amp;nbsp;&lt;/span&gt;&lt;a style="text-align: justify;" href="http://www.ebcc.info/"&gt;EBCC&lt;/a&gt;&lt;span style="text-align: justify;"&gt;&amp;nbsp;website and the website of the&amp;nbsp;&lt;/span&gt;&lt;a style="text-align: justify;" href="https://pecbms.info/"&gt;Pan-European Common Bird Monitoring Scheme&lt;/a&gt;&lt;span style="text-align: justify;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Protected areas:&lt;/strong&gt; information is also available at the '&lt;a title="Natura 2000 Barometer" href="http://ec.europa.eu/environment/nature/natura2000/barometer/index_en.htm"&gt;Natura 2000 Barometer&lt;/a&gt;', on the links to the &lt;a href="http://ec.europa.eu/environment/nature/natura2000/db_gis/index_en.htm"&gt;Member States' Natura2000 websites&lt;/a&gt; and on the &lt;a title="EU Biodiversity Strategy Dashboard" href="https://dopa.jrc.ec.europa.eu/kcbd/dashboard/#summary" target="_blank"&gt;EU Biodiversity Strategy Dashboard&lt;/a&gt;&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="QUALITY_DOC">
+                <generic:Value>&lt;p&gt;Birds: see the &lt;a href="http://www.ebcc.info/"&gt;EBCC&lt;/a&gt;&amp;nbsp;website and the website of the &lt;a href="https://pecbms.info/"&gt;Pan-European Common Bird Monitoring Scheme&lt;/a&gt;&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+        </generic:Attribute>
+        <generic:Attribute id="QUALITY_MGMNT">
+            <common:Annotations>
+                <common:Annotation>
+                    <common:AnnotationType>EDITABLE</common:AnnotationType>
+                    <common:AnnotationText>NO</common:AnnotationText>
+                </common:Annotation>
+            </common:Annotations>
+            <generic:Value></generic:Value>
+            <generic:Attribute id="QUALITY_ASSURE">
+                <generic:Value>&lt;p style="text-align: justify;"&gt;Birds in&amp;nbsp;env_bio3 and env_bio2: Note that all time series&amp;nbsp;are re-calculated over the whole period&amp;nbsp;every time new data are produced by the EBCC/national BirdLife offices. This is a modelling exercise, not merely a matter of adding the latest year onto a time series.&amp;nbsp;&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="QUALITY_ASSMNT">
+                <generic:Value>&lt;p style="text-align: justify;"&gt;&lt;strong&gt;Birds:&lt;/strong&gt; The common bird indices are published by the EBCC as of 1980, but Eurostat only considers the data to be sufficiently representative for the EU as of 1990. By 1990, nine of today's EU Member States plus one region of Belgium had joined the scheme, while in 2009 twenty EU countries contributed data.&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+        </generic:Attribute>
+        <generic:Attribute id="RELEVANCE">
+            <common:Annotations>
+                <common:Annotation>
+                    <common:AnnotationType>EDITABLE</common:AnnotationType>
+                    <common:AnnotationText>NO</common:AnnotationText>
+                </common:Annotation>
+            </common:Annotations>
+            <generic:Value></generic:Value>
+            <generic:Attribute id="USER_NEEDS">
+                <generic:Value>&lt;p&gt;The EU bird indices and the protected areas are used as sustainable development indicators. Common bird indices are used&amp;nbsp;for Eurostat's Resource Efficiency scoreboard.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The index of common farmland birds is used as a baseline indicator of the Common Monitoring and Evaluation Framework of the Rural Development Policy and as an agri-environmental indicator. The national farmland bird indices are published in the EU's annual reports on rural development. The forest bird indicator was added to Forest Europe's list of indicators of sustainable forest management in 2015.&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="USER_SAT">
+                <generic:Value>&lt;p&gt;Not available&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="COMPLETENESS">
+                <generic:Value>&lt;p&gt;Birds:&lt;/p&gt;
+&lt;p&gt;env_bio3 (i.e. EU aggregated data): The missing countries as of the&amp;nbsp;2020 data delivery (i.e. data for reference period 1990 - 2017, plus the estimates for years 2018 and 2019) are Croatia and Malta.&lt;/p&gt;
+&lt;p&gt;env_bio2 (i.e. national farmland bird indices): please see data availability in the table&amp;nbsp;&lt;a href="https://ec.europa.eu/eurostat/databrowser/view/env_bio2/default/table?lang=en"&gt;env_bio2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Protected areas:&amp;nbsp;all Member States (but see also section 3.7)&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+        </generic:Attribute>
+        <generic:Attribute id="ACCURACY">
+            <common:Annotations>
+                <common:Annotation>
+                    <common:AnnotationType>EDITABLE</common:AnnotationType>
+                    <common:AnnotationText>NO</common:AnnotationText>
+                </common:Annotation>
+            </common:Annotations>
+            <generic:Value></generic:Value>
+            <generic:Attribute id="ACCURACY_OVERALL">
+                <generic:Value>&lt;p style="text-align: justify;"&gt;Birds: good, judging by&amp;nbsp;converging results of successive data deliveries of the EU-aggregates.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="SAMPLING_ERR">
+                <generic:Value>&lt;p&gt;Birds, env_bio3: available for the three indices for the entire published data series (95% confidence limits of the smoothed trend line of the model).&lt;/p&gt;
+&lt;p&gt;Protected areas: not applicable&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="NONSAMPLING_ERR">
+                <generic:Value>&lt;p&gt;Not assessed&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+        </generic:Attribute>
+        <generic:Attribute id="TIMELINESS_PUNCT">
+            <common:Annotations>
+                <common:Annotation>
+                    <common:AnnotationType>EDITABLE</common:AnnotationType>
+                    <common:AnnotationText>NO</common:AnnotationText>
+                </common:Annotation>
+            </common:Annotations>
+            <generic:Value></generic:Value>
+            <generic:Attribute id="TIMELINESS">
+                <generic:Value>&lt;p&gt;Birds: usually n-2 (data delivered in Q3-Q4 of each year).&lt;/p&gt;
+&lt;p&gt;Protected areas: usually current year minus one (n-1).&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="PUNCTUALITY">
+                <generic:Value>&lt;p&gt;Not well defined, since data delivery depends on the organisation providing the data.&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+        </generic:Attribute>
+        <generic:Attribute id="COHER_COMPAR">
+            <common:Annotations>
+                <common:Annotation>
+                    <common:AnnotationType>EDITABLE</common:AnnotationType>
+                    <common:AnnotationText>NO</common:AnnotationText>
+                </common:Annotation>
+            </common:Annotations>
+            <generic:Value></generic:Value>
+            <generic:Attribute id="COMPAR_GEO">
+                <generic:Value>&lt;p&gt;Birds in env_bio2: the Czech Republic, Hunagry and Spain appear to be reporting a smoothed data series (i.e. the smoother of the time series of the index as opposed to the index itself). While the overall trends are comparable (e.g. a decline versus and increase), the quantification of the trend (e.g. the value for the latest year related to the value for the earliest year of a country time-series) should not be compared between countries - index data - "unsmoothed" might be very sensitive to the choise of the first and last year to be compared, because index data might be relatively volatile.&lt;/p&gt;
+&lt;p&gt;Countries are flagged ‘d’&amp;nbsp;because the bird species in the &lt;a href="https://data-explorer.oecd.org/vis?df%5bds%5d=DisseminateFinalDMZ&amp;amp;df%5bid%5d=DSD_AGRI_ENV%40DF_AEI&amp;amp;df%5bag%5d=OECD.TAD.ARP&amp;amp;dq=.A.BIRDSF%2BBIRDS....&amp;amp;pd=%2C&amp;amp;to%5bTIME_PERIOD%5d=false&amp;amp;vw=tb"&gt;OECD table&lt;/a&gt; differs from the &lt;a title="env_biodiv_esms_an_2.xlsx" href="https://ec.europa.eu/eurostat/cache/metadata/Annexes/env_biodiv_esms_an_2.xlsx"&gt;2014 national lists of common farmland bird species&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Birds in env_bio3: good, because all countries use the same methods and software to analyse their data. Data for the EU aggregates&amp;nbsp;are weighted according to the size of the population of each species in the country and geometric means are used to construct the composite indices (see &lt;a style="text-align: justify;" href="http://www.ebcc.info/index.php?ID=562"&gt;EBCC&lt;/a&gt; for details). Differences may arise from differences in the sampling method in countries. (However, the consistency of sampling throughout time in a particular country is important for the temporal comparability of national data and consistent national time series).&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Protected areas: good, because the methods are standardised.&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="COMPAR_TIME">
+                <generic:Value>&lt;p&gt;Birds - EU aggregate:&amp;nbsp;relatively good&amp;nbsp;because the entire time series is recalculated using a given model, each year, and the reuslt are compared against the earlier ones by the data providers; however, fewer countries contributed to the data set in the early years of the data collection.&lt;/p&gt;
+&lt;p&gt;Protected areas: good, as shown by the steady progression of the published time series.&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="COHER_X_DOM">
+                <generic:Value>&lt;p&gt;Not applicable&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="COHER_INTERNAL">
+                <generic:Value>&lt;p&gt;not applicable&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+        </generic:Attribute>
+        <generic:Attribute id="COST_BURDEN">
+            <generic:Value>&lt;p&gt;There is no burden for national statistical offices.&lt;/p&gt;
+&lt;p&gt;Birds: the field work is organised by the national BirdLife partners and performed by volunteers in most countries, who only get their travel expenses reimbursed, if anything at all. The national partners also check the data; all this is a&amp;nbsp;significant amount of work performed at a very low cost to the taxpayer at country level. For the production and improvement of the EU composite indicators from the national data on each species, the EBCC receives a grant payment from the European Commission.&lt;/p&gt;
+&lt;p&gt;Protected areas: the data are part of the Member States' reporting obligations on the environment under the Habitats and Birds Directives&amp;nbsp;&lt;/p&gt;</generic:Value>
+        </generic:Attribute>
+        <generic:Attribute id="DATA_REV">
+            <common:Annotations>
+                <common:Annotation>
+                    <common:AnnotationType>EDITABLE</common:AnnotationType>
+                    <common:AnnotationText>NO</common:AnnotationText>
+                </common:Annotation>
+            </common:Annotations>
+            <generic:Value></generic:Value>
+            <generic:Attribute id="REV_POLICY">
+                <generic:Value>&lt;p&gt;env_bio2: All data disseminated consist of data already disseminated by Organisation for Economic Cooperation and Development (OECD); National BirdLife organisations in PanEuropean Common Bird Monitoring Scheme (PECBMS) National Indicators and OECD Data Explorer (&lt;a href="https://pecbms.info/trends-and-indicators/national-indicators/"&gt;National indicators | PECBMS - PECBMS&lt;/a&gt;; &lt;a href="https://data-explorer.oecd.org/vis?tm=bird&amp;amp;pg=0&amp;amp;snb=5&amp;amp;vw=tb&amp;amp;df%5bds%5d=dsDisseminateFinalDMZ&amp;amp;df%5bid%5d=DSD_AGRI_ENV%40DF_AGBIO&amp;amp;df%5bag%5d=OECD.TAD.ARP&amp;amp;df%5bvs%5d=1.0&amp;amp;dq=.A.BIRDS....&amp;amp;pd=1995%2C2023&amp;amp;to%5bTIME_PERIOD%5d=false"&gt;OECD Data Explorer • Biodiversity&lt;/a&gt;). The revision policy is therefore effectively the revision policy applied by Organisation for Economic Cooperation and Development (OECD); National BirdLife organisations for OECD Data Explorer and PECBMS National Indicators.&lt;/p&gt;
+&lt;p&gt;env_bio3: All data disseminated consist of data already disseminated by European Bird Census Council (EBCC); National BirdLife organisations; Royal Society for the Protection of Birds (RSPB); Czech Society for Ornithology (CSO) in PanEuropean Common Bird Monitoring Scheme (&lt;a href="https://pecbms.info/"&gt;Home | PECBMS - PECBMS&lt;/a&gt;). The revision policy is therefore effectively the revision policy applied by&amp;nbsp;&lt;span&gt;European Bird Census Council (EBCC); National BirdLife organisations; Royal Society for the Protection of Birds (RSPB); Czech Society for Ornithology (CSO)&lt;/span&gt; for PECBMS.&lt;/p&gt;
+&lt;p&gt;env_bio4: All data disseminated consist of data already disseminated by European Environment Agency (EEA) in EEA Datahub (&lt;a href="https://www.eea.europa.eu/en/datahub/featured-data/statistical-data/datahubitem-view/5bd82900-cb8e-43b9-9e8d-d00dd1edce10"&gt;[EU SDG 15_20] Surface of the terrestrial protected areas&lt;/a&gt; and &lt;a href="https://www.eea.europa.eu/en/datahub/featured-data/statistical-data/datahubitem-view/a6f975ce-c4a8-4398-b80e-2354854e93f2?activeAccordion="&gt;[EU SDG 14_10] Surface of the marine protected areas&lt;/a&gt;). The revision policy is therefore effectively the revision policy applied by EEA for EEA Datahub.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="REV_PRACTICE">
+                <generic:Value>&lt;p&gt;env_bio2: The revision practice effectively corresponds to the revision practice of Organisation for Economic Cooperation and Development (OECD); National BirdLife organisations in OECD Data Explorer and PECBMS National Indicators (&lt;a href="https://data-explorer.oecd.org/vis?tm=bird&amp;amp;pg=0&amp;amp;snb=5&amp;amp;vw=tb&amp;amp;df%5bds%5d=dsDisseminateFinalDMZ&amp;amp;df%5bid%5d=DSD_AGRI_ENV%40DF_AGBIO&amp;amp;df%5bag%5d=OECD.TAD.ARP&amp;amp;df%5bvs%5d=1.0&amp;amp;dq=.A.BIRDS....&amp;amp;pd=1995%2C2023&amp;amp;to%5bTIME_PERIOD%5d=false"&gt;OECD Data Explorer • Biodiversity&lt;/a&gt;; &lt;a href="https://pecbms.info/trends-and-indicators/national-indicators/"&gt;National indicators | PECBMS - PECBMS&lt;/a&gt;) – but with a revision periodicity corresponding to the Eurostat retrieval schedule.&lt;/p&gt;
+&lt;p&gt;Each year, when data are retrieved by Eurostat from OECD Data Explorer and PECBMS National Indicators, all of the already disseminated data are updated.&lt;/p&gt;
+&lt;p&gt;env_bio3: The revision practice effectively corresponds to the revision practice of European Bird Census Council (EBCC); National BirdLife organisations; Royal Society for the Protection of Birds (RSPB); Czech Society for Ornithology (CSO) in PECBMS (&lt;a href="https://pecbms.info/"&gt;Home | PECBMS - PECBMS&lt;/a&gt;) – but with a revision periodicity corresponding to the Eurostat retrieval schedule.&lt;/p&gt;
+&lt;p&gt;Each year, when data are retrieved by Eurostat from PECBMS, all of the already disseminated data are updated.&lt;/p&gt;
+&lt;p&gt;env_bio4: The revision practice effectively corresponds to the revision practice of European Environment Agency (EEA) in EEA Datahub (&lt;a href="https://www.eea.europa.eu/en/datahub/featured-data/statistical-data/datahubitem-view/5bd82900-cb8e-43b9-9e8d-d00dd1edce10"&gt;[EU SDG 15_20] Surface of the terrestrial protected areas&lt;/a&gt; and &lt;a href="https://www.eea.europa.eu/en/datahub/featured-data/statistical-data/datahubitem-view/a6f975ce-c4a8-4398-b80e-2354854e93f2?activeAccordion="&gt;[EU SDG 14_10] Surface of the marine protected areas&lt;/a&gt;) – but with a revision periodicity corresponding to the Eurostat retrieval schedule.&lt;/p&gt;
+&lt;p&gt;Each year, when data are retrieved by Eurostat from EEA Datahub all of the already disseminated data are updated.&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+        </generic:Attribute>
+        <generic:Attribute id="STAT_PROCESS">
+            <common:Annotations>
+                <common:Annotation>
+                    <common:AnnotationType>EDITABLE</common:AnnotationType>
+                    <common:AnnotationText>NO</common:AnnotationText>
+                </common:Annotation>
+            </common:Annotations>
+            <generic:Value></generic:Value>
+            <generic:Attribute id="SOURCE_TYPE">
+                <generic:Value>&lt;p&gt;&lt;strong&gt;Birds:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;env_bio2: national data collection of field data per bird species, followed by processing and dispatch to the OECD.&lt;/li&gt;
+&lt;li&gt;env_bio3: national data received by the EBCC and processsed to produce the EU composite indices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Protected areas:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;administrative data, processed at the national level, plus processing by&amp;nbsp;the European Environment Agency.&lt;/li&gt;
+&lt;li&gt;the share of protected marine areas is calculated by Eurostat using published official data on marine protected areas and data on the area of marine waters reported by Member States for the Marine Strategy Framework Directive.&lt;/li&gt;
+&lt;/ul&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="FREQ_COLL">
+                <generic:Value>&lt;p&gt;Annual&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="COLL_METHOD">
+                <generic:Value>&lt;p&gt;&lt;strong style="text-align: justify;"&gt;Birds:&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;env_bio2: data are collected by OECD, then re-published by Eurostat.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;env_bio3: data are collected by the EBCC who provides data to Eurostat. Please see the &lt;a href="https://pecbms.info/"&gt;PECBMS&lt;/a&gt; website for further information.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;strong&gt;Protected areas:&lt;/strong&gt;&amp;nbsp;reporting obligations of the Member States under the Habitats and Birds Directives. The data are transmitted to the European Commission's Directorate General&amp;nbsp;for the Environment. Data are published by the EEA,&amp;nbsp;then re-published by Eurostat.&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="DATA_VALIDATION">
+                <generic:Value>&lt;p&gt;&lt;strong&gt;Birds:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;env_bio2: data validated nationally&lt;/p&gt;
+&lt;p&gt;env_bio3: data validated nationally and by the EBCC&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Protected areas:&lt;/strong&gt;&amp;nbsp;done by the European Topic Centre for Biodiversity, on behalf of the European Commission&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="DATA_COMP">
+                <generic:Value>&lt;p&gt;&lt;strong&gt;Birds:&lt;/strong&gt; Indices are first calculated for each species independently at the national level by producing a national population index per species.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Then, the national species indices are combined into supranational ones (using methods devised by Statistics Netherlands) by the EBCC. The method uses a weighting scheme to&amp;nbsp;allow for the fact that different countries hold different proportions of the European population of each species. In a third step, the supranational indices for each species are then combined on a geometric scale to create a multi-species aggregate index at European level.&amp;nbsp;See the &lt;a href="https://www.ebcc.info/index.php?ID=647"&gt;EBCC website&lt;/a&gt; and the &lt;a href="https://pecbms.info/"&gt;PECBMS website &lt;/a&gt;for more details. &amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Protected areas:&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;European Topic Centre for Biodiversity/EEA&lt;/li&gt;
+&lt;li&gt;EEA calculates the % of protected marine areas based on data on protected marine areas and the area of marine waters, as reported for the Marine Strategy Framework Directive and published by WISE - MARINE (EEA).&lt;/li&gt;
+&lt;/ul&gt;</generic:Value>
+            </generic:Attribute>
+            <generic:Attribute id="ADJUSTMENT">
+                <generic:Value>&lt;p&gt;Not available&lt;/p&gt;</generic:Value>
+            </generic:Attribute>
+        </generic:Attribute>
+        <generic:Attribute id="COMMENT_DSET">
+            <generic:Value>&lt;p&gt;Not applicable&lt;/p&gt;</generic:Value>
+        </generic:Attribute>
+    </MetadataSet>
+</GenericMetadata>
